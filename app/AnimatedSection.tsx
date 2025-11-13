@@ -33,6 +33,7 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({ children, className =
     const modename: { [key: string]: string} = {
       "fade-in": isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
       "slide-in-left": isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10",
+      "slide-top-to-bottom": isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10",
       "None": ""
     }
 
