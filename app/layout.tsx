@@ -15,7 +15,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="text-center py-2 border-t border-gray-700 mt-auto">
-          Made by Kwak DO Young
+          Made by Kwak Do Young
         </footer>
       </body>
     </html>
