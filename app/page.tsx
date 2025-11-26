@@ -20,13 +20,19 @@ export default function Home() {
 
             <div className='flex items-center justify-center absolute top-120 space-x-30'>
                 <AnimatedSection delay={1500} mode='slide-top-to-bottom'>
-                    <p className='cursor-pointer hover:text-green-200'>Project 1</p>
+                    <p className="textani">
+                    Project 1
+                    </p>
                 </AnimatedSection>
                 <AnimatedSection delay={1650} mode='slide-top-to-bottom'>
-                    <p className='cursor-pointer hover:text-green-200'>Project 2</p>
+                    <p className="textani">
+                    Project 2
+                    </p>                
                 </AnimatedSection>
                 <AnimatedSection delay={1800} mode='slide-top-to-bottom'>
-                    <p className='cursor-pointer hover:text-green-200'>Project 3</p>
+                    <p className="textani">
+                    Project 3
+                    </p>                
                 </AnimatedSection>
             </div>
         </div>
