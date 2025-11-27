@@ -2,6 +2,7 @@ import './globals.css';
 import AnimatedSection from './AnimatedSection';
 import TextShuffle from './textshuffle';
 import "./globals.css";
+import Link from 'next/link';
 
 export default function Home() {
     return (
@@ -21,7 +22,9 @@ export default function Home() {
             <div className='flex items-center justify-center absolute top-120 space-x-30'>
                 <AnimatedSection delay={1500} mode='slide-top-to-bottom'>
                     <p className="textani">
-                    Project 1
+                        <Link href="/bored1">
+                            Project 1
+                        </Link>
                     </p>
                 </AnimatedSection>
                 <AnimatedSection delay={1650} mode='slide-top-to-bottom'>
