@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="content">
+        </div>
+        <script type="importmap">
+            {
+                "imports": {
+                    "three": "./node_modules/three/build/three.module.js",
+                    "glbf": "./node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+                    "orbit": "./node_modules/three/examples/jsm/controls/OrbitControls.js",
+                    "css3d": "./node_modules/three/examples/jsm/renderers/CSS3DRenderer.js"
+                }
+            }
+        </script>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>

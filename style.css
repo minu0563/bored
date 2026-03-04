@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: -1;
+}
+
+.content {
+    height: 300vh;
+    padding: 50px;
+    color: white;
+    font-size: 2rem;
+}
+
+#container {
+    position: fixed;
+}
